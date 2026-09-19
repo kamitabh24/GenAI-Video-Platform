@@ -1,0 +1,15 @@
+{
+  "name": "genai-video-e2e-testing",
+  "version": "1.0.0",
+  "description": "Automated E2E testing framework for a generative AI video creation studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "Amitabh Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
